@@ -32,13 +32,13 @@ The **Tanjiro DApp** showcases the functionalities of the **Tanjiro ERC-20 token
 
 ## Install dependencies:
   ```bash
-npm install
+    npm install
     ```
 
 - Add your contract's address and other environment variables.
 - Run the development server:
- ```bash
-npm run dev 
+    ```bash
+    npm run dev 
     ```
 - Open your browser and visit http://localhost:3000.
 
