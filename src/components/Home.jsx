@@ -54,7 +54,10 @@ const Home = () => {
       toast("No tokens earned to withdraw.", { position: "top-center" });
       return;
     }
-
+    if(amount > tokensEarned){
+      toast("slay more demons"); 
+      return; 
+    }
     setIsProcessing(true);
     setWithdrawalStatus(""); // Reset status
     console.log('startin the main action'); 
